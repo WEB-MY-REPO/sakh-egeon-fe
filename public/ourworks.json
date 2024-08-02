@@ -68,5 +68,26 @@
         "id": 14,
         "title": "Ремонт технологического трубопровода",
         "pictures":  ["trub.jpeg", "trub1.jpeg"]
+    },
+    {
+        "id": 15,
+        "title": "Пескоструйная обработка фасада дома культуры в с. Чехов",
+        "pictures":  ["2023/chehov/pchehov1.jpeg", "2023/chehov/pchehov2.jpeg", "2023/chehov/pchehov3.jpeg"]
+    },
+    {
+        "id": 16,
+        "title": "Ремонт фасада центральной районной библиотеки им. Николаева",
+        "pictures":  ["2023/facadelib/facadelib1.jpeg", "2023/facadelib/facadelib2.jpeg", "2023/facadelib/facadelib3.jpeg", 
+            "2023/facadelib/facadelib4.jpeg", "2023/facadelib/facadelib5.jpeg", "2023/facadelib/facadelib6.jpeg", 
+            "2023/facadelib/facadelib7.jpeg"]
+    }],
+    [{
+        "id": 17,
+        "title": "Строительство двухэтажного коммерческого здания\nг. Холмск пл. Ленина 8",
+        "pictures":  ["2023/twofloorskholmsk/1.jpeg", "2023/twofloorskholmsk/2.png", "2023/twofloorskholmsk/3.jpeg", 
+            "2023/twofloorskholmsk/4.jpeg", "2023/twofloorskholmsk/5.jpeg", "2023/twofloorskholmsk/6.jpeg", "2023/twofloorskholmsk/7.jpeg", 
+            "2023/twofloorskholmsk/8.jpeg", "2023/twofloorskholmsk/9.jpeg", "2023/twofloorskholmsk/10.jpeg", "2023/twofloorskholmsk/11.jpeg", 
+            "2023/twofloorskholmsk/12.jpeg", "2023/twofloorskholmsk/13.jpeg", "2023/twofloorskholmsk/14.jpeg", "2023/twofloorskholmsk/15.jpeg", 
+            "2023/twofloorskholmsk/16.jpeg"]
     }]
 ]

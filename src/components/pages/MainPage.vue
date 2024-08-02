@@ -1,17 +1,15 @@
 <template>
     <v-parallax src="/pictures/main.jpg" height="100%">
-        <!-- <v-card class="ma-8 cardColor"> -->
         <div class="d-flex justify-center mt-1">
             <div :class="`text-h5 text-lg-h4 text-center font-weight-black text-indigo ${$isMobile ? 'w-75' : 'w-50'}`"
                 :style="$isMobile ? '' : 'line-height: 275%;'">
-                <!-- {{ $store.getters.orgNameTitle }} -->
                 Общество с ограниченной ответственностью
                 <div class="text-h5 text-lg-h2 font-weight-bold">
                     «ЭГЕОН»
                 </div>
             </div>
         </div>
-        <div class="mt-4">
+        <div class="my-4">
             <template v-for="(row, idx) in works" :key="idx">
                 <v-row class="mx-2 mx-sm-16">
                     <v-col :cols="$isMobile ? 12 : cols" v-for="(col, icol) in row" :key="icol">
@@ -22,7 +20,7 @@
                                     <v-carousel cycle :show-arrows="false" hide-delimiters height="242">
                                         <v-carousel-item v-for="(slide, i) in col.pictures" :key="i">
                                             <v-sheet height="100%" tile>
-                                                <div class="d-flex fill-height justify-center align-center text-start">
+                                                <div class="d-flex fill-height justify-center align-center text-start pointer">
                                                     <v-img :src="`/pictures/works/${slide}`" height="242" cover>
                                                         <div class="h-100 d-flex align-end pa-4 wsspanw text-h6">
                                                             {{ col.title }}
