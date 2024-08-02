@@ -1,11 +1,9 @@
-open sftp://%1%:%2%@151.248.122.7/ -hostkey="ssh-rsa 3072 DuouOomp83+jeyqAoGRL7wy1y/aaWpkOWzgMbc1bazc"
-cd /home/%1%/ooo-egeon-be/public
-call mkdir ../jsons 2>/dev/null || :
-call cp -f *.json ../jsons/ 2>/dev/null || :
+open sftp://%1%:%2%@sakh-egeon.ru/ -hostkey="ssh-rsa 3072 a3Oh/Qe3eIeyIbRbZKj9Z3o+HmTbsR0Ln7XMZiDzoZw"
+cd /home/%1%/sakh-egeon-be/public
 call rm -rf * 2>/dev/null || :
-call mv ../jsons/*.json ./ 2>/dev/null || :
 put public.7z
 call 7z x public.7z -y
 call rm -f public.7z
-call ~/ooo-egeon-be/admscripts/stop.sh
+cd ~
+call ./stop.sh
 exit
