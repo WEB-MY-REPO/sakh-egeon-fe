@@ -1,93 +1,291 @@
 [
-    [{
-        "id": 1,
-        "title": "Антикоррозионное покрытие РВС",
-        "pictures":  ["IMG-20230310-WA0114.jpg", "IMG-20230310-WA0116.jpg"]
-    },
-    {
-        "id": 2,
-        "title": "Внутренние и наружные инженерные сети",
-        "pictures":  ["IMG-20230310-WA0109.jpg", "IMG-20230310-WA0112.jpg"]
-    },
-    {
-        "id": 3,
-        "title": "Внутренняя отделка",
-        "pictures":  ["IMG-20230310-WA0113.jpg", "otdelka.jpeg"]
-    },
-    {
-        "id": 4,
-        "title": "Замена кровель РВС",
-        "pictures":  ["IMG-20230310-WA0096.jpg", "IMG-20230310-WA0159.jpg"]
-    }],
-    [{
-        "id": 5,
-        "title": "Замена поясов РВС",
-        "pictures":  ["IMG-20230310-WA0137.jpg", "IMG-20230310-WA0141.jpg"]
-    },
-    {
-        "id": 6,
-        "title": "Замена труб котельных с. Чехов",
-        "pictures":  ["IMG-20230310-WA0198.jpg", "IMG-20230310-WA0200.jpg"]
-    },
-    {
-        "id": 7,
-        "title": "Изготовление лестницы шахтной 4 (ЛШ4)",
-        "pictures":  ["IMG-20230310-WA0121.jpg", "IMG-20230310-WA0124.jpg"]
-    },
-    {
-        "id": 8,
-        "title": "Изготвление узла задвижек",
-        "pictures":  ["uzla1.jpeg", "uzla2.jpeg"]
-    }],
-    [{
-        "id": 9,
-        "title": "Кровля ПАО «Сахалинэнерго»",
-        "pictures":  ["IMG-20230310-WA0123.jpg", "IMG-20230310-WA0179.jpg", "photo_5312515778400077300_y.jpg", "photo_5312515778400077310_y.jpg"]
-    },
-    {
-        "id": 10,
-        "title": "Навес АЗК 551",
-        "pictures":  ["IMG-20230310-WA0196.jpg", "IMG-20230310-WA019677.jpeg"]
-    },
-    {
-        "id": 11,
-        "title": "Периметральное ограждение",
-        "pictures":  ["IMG-20230310-WA0125.jpg", "IMG-20230310-WA01251.jpeg", "IMG-20230310-WA01252.jpeg", "IMG-20230310-WA01253.jpeg"]
-    },
-    {
-        "id": 12,
-        "title": "Пескоструйная обработка металлов",
-        "pictures":  ["IMG-20230310-WA0115.jpg", "IMG-20230310-WA0174.jpg"]
-    }],
-    [{
-        "id": 13,
-        "title": "Ремонт кровли АЗК",
-        "pictures":  ["azk.jpeg", "azk1.jpeg"]
-    },
-    {
-        "id": 14,
-        "title": "Ремонт технологического трубопровода",
-        "pictures":  ["trub.jpeg", "trub1.jpeg"]
-    },
-    {
-        "id": 15,
-        "title": "Пескоструйная обработка фасада дома культуры в с. Чехов",
-        "pictures":  ["2023/chehov/pchehov1.jpeg", "2023/chehov/pchehov2.jpeg", "2023/chehov/pchehov3.jpeg"]
-    },
-    {
-        "id": 16,
-        "title": "Ремонт фасада центральной районной библиотеки им. Николаева",
-        "pictures":  ["2023/facadelib/facadelib1.jpeg", "2023/facadelib/facadelib2.jpeg", "2023/facadelib/facadelib3.jpeg", 
-            "2023/facadelib/facadelib4.jpeg", "2023/facadelib/facadelib5.jpeg", "2023/facadelib/facadelib6.jpeg", 
-            "2023/facadelib/facadelib7.jpeg"]
-    }],
-    [{
-        "id": 17,
-        "title": "Строительство двухэтажного коммерческого здания\nг. Холмск пл. Ленина 8",
-        "pictures":  ["2023/twofloorskholmsk/1.jpeg", "2023/twofloorskholmsk/2.png", "2023/twofloorskholmsk/3.jpeg", 
-            "2023/twofloorskholmsk/4.jpeg", "2023/twofloorskholmsk/5.jpeg", "2023/twofloorskholmsk/6.jpeg", "2023/twofloorskholmsk/7.jpeg", 
-            "2023/twofloorskholmsk/8.jpeg", "2023/twofloorskholmsk/9.jpeg", "2023/twofloorskholmsk/10.jpeg", "2023/twofloorskholmsk/11.jpeg", 
-            "2023/twofloorskholmsk/12.jpeg", "2023/twofloorskholmsk/13.jpeg", "2023/twofloorskholmsk/14.jpeg", "2023/twofloorskholmsk/15.jpeg", 
-            "2023/twofloorskholmsk/16.jpeg"]
-    }]
+    [
+        {
+            "id": 1,
+            "title": "Антикоррозионное покрытие РВС",
+            "pictures": [
+                "IMG-20230310-WA0114.jpg",
+                "IMG-20230310-WA0116.jpg"
+            ]
+        },
+        {
+            "id": 2,
+            "title": "Внутренние и наружные инженерные сети",
+            "pictures": [
+                "IMG-20230310-WA0109.jpg",
+                "IMG-20230310-WA0112.jpg"
+            ]
+        },
+        {
+            "id": 3,
+            "title": "Внутренняя отделка",
+            "pictures": [
+                "IMG-20230310-WA0113.jpg",
+                "otdelka.jpeg"
+            ]
+        },
+        {
+            "id": 4,
+            "title": "Замена кровель РВС",
+            "pictures": [
+                "IMG-20230310-WA0096.jpg",
+                "IMG-20230310-WA0159.jpg"
+            ]
+        }
+    ],
+    [
+        {
+            "id": 5,
+            "title": "Замена поясов РВС",
+            "pictures": [
+                "IMG-20230310-WA0137.jpg",
+                "IMG-20230310-WA0141.jpg"
+            ]
+        },
+        {
+            "id": 6,
+            "title": "Замена труб котельных с. Чехов",
+            "pictures": [
+                "IMG-20230310-WA0198.jpg",
+                "IMG-20230310-WA0200.jpg"
+            ]
+        },
+        {
+            "id": 7,
+            "title": "Изготовление лестницы шахтной 4 (ЛШ4)",
+            "pictures": [
+                "IMG-20230310-WA0121.jpg",
+                "IMG-20230310-WA0124.jpg"
+            ]
+        },
+        {
+            "id": 8,
+            "title": "Изготвление узла задвижек",
+            "pictures": [
+                "uzla1.jpeg",
+                "uzla2.jpeg"
+            ]
+        }
+    ],
+    [
+        {
+            "id": 9,
+            "title": "Кровля ПАО «Сахалинэнерго»",
+            "pictures": [
+                "IMG-20230310-WA0123.jpg",
+                "IMG-20230310-WA0179.jpg",
+                "photo_5312515778400077300_y.jpg",
+                "photo_5312515778400077310_y.jpg"
+            ]
+        },
+        {
+            "id": 10,
+            "title": "Навес АЗК 551",
+            "pictures": [
+                "IMG-20230310-WA0196.jpg",
+                "IMG-20230310-WA019677.jpeg"
+            ]
+        },
+        {
+            "id": 11,
+            "title": "Периметральное ограждение",
+            "pictures": [
+                "IMG-20230310-WA0125.jpg",
+                "IMG-20230310-WA01251.jpeg",
+                "IMG-20230310-WA01252.jpeg",
+                "IMG-20230310-WA01253.jpeg"
+            ]
+        },
+        {
+            "id": 12,
+            "title": "Пескоструйная обработка металлов",
+            "pictures": [
+                "IMG-20230310-WA0115.jpg",
+                "IMG-20230310-WA0174.jpg"
+            ]
+        }
+    ],
+    [
+        {
+            "id": 13,
+            "title": "Ремонт кровли АЗК",
+            "pictures": [
+                "azk.jpeg",
+                "azk1.jpeg"
+            ]
+        },
+        {
+            "id": 14,
+            "title": "Ремонт технологического трубопровода",
+            "pictures": [
+                "trub.jpeg",
+                "trub1.jpeg"
+            ]
+        },
+        {
+            "id": 15,
+            "title": "Пескоструйная обработка фасада дома культуры в с. Чехов",
+            "pictures": [
+                "2023/chehov/pchehov1.jpeg",
+                "2023/chehov/pchehov2.jpeg",
+                "2023/chehov/pchehov3.jpeg"
+            ]
+        },
+        {
+            "id": 16,
+            "title": "Ремонт фасада центральной районной библиотеки им. Николаева",
+            "pictures": [
+                "2023/facadelib/facadelib1.jpeg",
+                "2023/facadelib/facadelib2.jpeg",
+                "2023/facadelib/facadelib3.jpeg",
+                "2023/facadelib/facadelib4.jpeg",
+                "2023/facadelib/facadelib5.jpeg",
+                "2023/facadelib/facadelib6.jpeg",
+                "2023/facadelib/facadelib7.jpeg"
+            ]
+        }
+    ],
+    [
+        {
+            "id": 17,
+            "title": "Строительство двухэтажного коммерческого здания\nг. Холмск пл. Ленина 8",
+            "pictures": [
+                "2023/twofloorskholmsk/1.jpeg",
+                "2023/twofloorskholmsk/2.png",
+                "2023/twofloorskholmsk/3.jpeg",
+                "2023/twofloorskholmsk/4.jpeg",
+                "2023/twofloorskholmsk/5.jpeg",
+                "2023/twofloorskholmsk/6.jpeg",
+                "2023/twofloorskholmsk/7.jpeg",
+                "2023/twofloorskholmsk/8.jpeg",
+                "2023/twofloorskholmsk/9.jpeg",
+                "2023/twofloorskholmsk/10.jpeg",
+                "2023/twofloorskholmsk/11.jpeg",
+                "2023/twofloorskholmsk/12.jpeg",
+                "2023/twofloorskholmsk/13.jpeg",
+                "2023/twofloorskholmsk/14.jpeg",
+                "2023/twofloorskholmsk/15.jpeg",
+                "2023/twofloorskholmsk/16.jpeg"
+            ]
+        },
+        {
+            "id": 18,
+            "title": "Благоустройство территории Чайка 2025г",
+            "pictures": [
+                "2025/blagoustroystvo-territorii-chayka-2025/1.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/2.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/3.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/4.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/5.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/6.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/7.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/8.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/9.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/10.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/11.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/12.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/13.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/14.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/15.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/18.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/19.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/20.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/21.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/22.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/23.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/24.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/25.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/26.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/27.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/28.jpg",
+                "2025/blagoustroystvo-territorii-chayka-2025/29.jpg"
+            ]
+        },
+        {
+            "id": 19,
+            "title": "Инженерная защита территории 2024",
+            "pictures": [
+                "2024/inzhenernaya-zashchita-territorii-2024/1.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/2.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/3.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/4.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/5.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/6.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/7.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/8.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/9.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/10.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/11.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/12.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/13.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/14.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/15.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/16.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/17.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/18.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/19.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/20.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/21.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/22.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/23.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/24.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/25.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/26.jpg",
+                "2024/inzhenernaya-zashchita-territorii-2024/27.jpg"
+            ]
+        },
+        {
+            "id": 20,
+            "title": "Капитальный ремонт ДС №1 Солнышко в городе Холмске 2024-2025",
+            "pictures": [
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/1.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/2.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/3.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/4.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/5.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/6.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/7.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/8.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/9.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/10.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/11.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/12.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/13.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/14.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/15.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/16.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/17.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/18.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/19.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/20.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/21.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/22.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/23.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/24.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/25.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/26.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/27.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/28.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/29.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/30.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/31.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/32.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/33.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/34.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/35.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/36.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/37.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/38.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/39.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/40.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/41.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/42.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/43.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/44.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/45.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/46.jpg",
+                "2024/kapitalny-remont-ds1-solnyshko-kholmsk-2024-2025/47.jpg"
+            ]
+        }
+    ]
 ]

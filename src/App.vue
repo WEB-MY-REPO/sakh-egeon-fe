@@ -12,7 +12,6 @@ import app from "@/main";
 import { ref, provide, onMounted } from "vue";
 import { useDisplay, useTheme } from "vuetify";
 import { ajaxGetStatic } from "@/ajax";
-import router from "@/router";
 
 //--Components--
 import Header from "@/components/pages/Header.vue";
@@ -24,14 +23,25 @@ provide("mobile", mobile);
 const headerHeight = 124;
 
 //--Reactive constants--
-const showsnackbar = ref(false);
 const organization = ref([]);
 provide("organization", organization);
+const works = ref([]);
+provide("works", works);
+const ourworkstexts = ref([]);
+provide("ourworkstexts", ourworkstexts);
 
 //--Hooks--
 onMounted(() => {
     ajaxGetStatic("/organization.json", (response) => {
         organization.value = response.data;
+    });
+
+    ajaxGetStatic("/ourworks.json", (response) => {
+        works.value = response.data;
+    });
+
+    ajaxGetStatic("/ourworkstexts.json", (response) => {
+        ourworkstexts.value = response.data;
     });
 });
 </script>
@@ -101,7 +111,7 @@ ul {
     filter: v-bind(router.currentRoute.value.path == "/" ? null : 'blur(3px)');
     opacity: v-bind(router.currentRoute.value.path == "/" ? null : '0.2');
 } */
-.v-parallax > .v-img__img--cover {
+.v-parallax>.v-img__img--cover {
     filter: blur(3px);
     opacity: 0.25;
 }

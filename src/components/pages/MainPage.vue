@@ -9,7 +9,7 @@
                 </div>
             </div>
         </div>
-        <div class="my-4">
+        <div v-if="Array.isArray(works)" class="my-4">
             <template v-for="(row, idx) in works" :key="idx">
                 <v-row class="mx-2 mx-sm-16">
                     <v-col :cols="$isMobile ? 12 : cols" v-for="(col, icol) in row" :key="icol">
@@ -20,7 +20,8 @@
                                     <v-carousel cycle :show-arrows="false" hide-delimiters height="242">
                                         <v-carousel-item v-for="(slide, i) in col.pictures" :key="i">
                                             <v-sheet height="100%" tile>
-                                                <div class="d-flex fill-height justify-center align-center text-start pointer">
+                                                <div
+                                                    class="d-flex fill-height justify-center align-center text-start pointer">
                                                     <v-img :src="`/pictures/works/${slide}`" height="242" cover>
                                                         <div class="h-100 d-flex align-end pa-4 wsspanw text-h6">
                                                             {{ col.title }}
@@ -47,19 +48,13 @@ export default {
 </script>
 
 <script setup>
-import { ref, onMounted } from "vue";
-import { ajaxGetStatic } from "@/ajax";
-
-const works = ref([]);
+import { ref, onMounted, inject } from "vue";
+const works = inject("works");
 const cols = ref(12);
 
-//--Hooks--
 onMounted(() => {
-    ajaxGetStatic("/ourworks.json", (response) => {
-        works.value = response.data;
-        let max = 0;
-        works.value.forEach(x => { if (x.length > max) max = x.length });
-        cols.value = 12 / max;
-    });
+    let max = 0;
+    works.value.forEach(x => { if (x.length > max) max = x.length });
+    cols.value = 12 / max;
 });
 </script>
