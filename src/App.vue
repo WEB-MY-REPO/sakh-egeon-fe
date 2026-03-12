@@ -2,7 +2,10 @@
     <v-app>
         <Header :height="headerHeight"></Header>
         <v-main>
-            <router-view></router-view>
+            <div v-if="loaded.some(x => x == false)" class="loader-wrapper">
+                <v-progress-circular indeterminate size="x-large"></v-progress-circular>
+            </div>
+            <router-view v-else></router-view>
         </v-main>
     </v-app>
 </template>
@@ -29,19 +32,23 @@ const works = ref([]);
 provide("works", works);
 const ourworkstexts = ref([]);
 provide("ourworkstexts", ourworkstexts);
+const loaded = ref([false, false, false]);
 
 //--Hooks--
 onMounted(() => {
     ajaxGetStatic("/organization.json", (response) => {
         organization.value = response.data;
+        loaded.value[0] = true;
     });
 
     ajaxGetStatic("/ourworks.json", (response) => {
         works.value = response.data;
+        loaded.value[1] = true;
     });
 
     ajaxGetStatic("/ourworkstexts.json", (response) => {
         ourworkstexts.value = response.data;
+        loaded.value[2] = true;
     });
 });
 </script>
@@ -50,6 +57,13 @@ onMounted(() => {
 p,
 ul {
     line-height: 1.75;
+}
+
+.loader-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 124px);
 }
 
 .pointer {
